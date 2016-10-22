@@ -1,0 +1,68 @@
+/*/////////////////////////////////////////*/
+
+.topbar{
+    background-color: #293649;
+    height: 100px;
+}
+
+.block{
+    background-color: black;
+
+    
+}
+
+.functionbar{
+    /*background-color: blue;*/
+    float: left;
+    width: 12%;
+    height: 1093px;
+}
+
+.container{
+    /*background-color: yellow;*/
+    float: left;
+    width: 88%;
+    /*height: 1093px;*/
+}
+
+.logo {
+    width: 243px;
+    height: 35px;
+    background: url(/Images/logo.png) 0 0 no-repeat;
+    margin: 8px 0 0 9px;
+}
+
+.top_login_bg {
+    color: #fff;
+    height: 22px;
+    width: 59px;
+    font-size: 14px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 6px;
+    background: #1A1A1A;
+    position: absolute;
+    left: 92%;
+}
+
+    .top_login_bg:hover {
+        background: #97be10;
+        background: -moz-linear-gradient(#97be10 0%, #79980d 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #97be10), color-stop(100%, #79980d));
+        background: -webkit-linear-gradient(#97be10 0%, #79980d 100%);
+        background: linear-gradient(#97be10 0%, #79980d 100%);
+    }
+
+    .top_login_bg a {
+        color: #fff;
+        text-decoration: none;
+        text-shadow: 0 1px 1px #000;
+    }
+
+        .top_login_bg a:hover {
+            color: #fff;
+            text-decoration: none;
+            text-shadow: 0 1px 1px #000;
+        }

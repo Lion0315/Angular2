@@ -47,7 +47,6 @@ export class AppComponent implements OnInit, OnChanges, OnDestroy {
     // 訂閱LoginService，若數值改變將觸發事件
     this.subscription = this.service.getLoginStatus()
       .subscribe(item => this.selectedNavItem(item));
-
     // console.log('login now: ' + this.service.getLoginStatus());
     // this.service.setLoginStatus(true);
     // console.log('login change: ' + this.service.getLoginStatus());
